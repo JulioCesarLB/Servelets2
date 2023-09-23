@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+   <h3>Cadastra Pessoa</h3>
+   
+   <form method="get" action="CadastraPessoa">
+   		<p>Nome: <input type="text" name="nome" id="nome" /></p>
+   		<p>Gênero: 
+   		   <label><input type="radio" name="genero" value="masculino" /> masculino</label>
+   		   <label><input type="radio" name="genero" value="feminino" /> feminino</label>
+   		   <label><input type="radio" name="genero" value="outro" /> outro</label>
+   		</p>
+   		<p>Data de nascimento: <input type="date" name="nascimento" /></p>
+   		<p>Conhecimentos:</p>
+   		<p>
+   		  <label><input type="checkbox" name="skills" value="html"/> html</label>
+   		  <label><input type="checkbox" name="skills" value="python"/> python</label>
+   		  <label><input type="checkbox" name="skills" value="java"/> java</label> 
+   		</p>
+   		<p>
+   		  <label><input type="checkbox" name="skills" value="oracle"/> oracle</label>
+   		  <label><input type="checkbox" name="skills" value="estatistica"/> estatística</label>
+   		  <label><input type="checkbox" name="skills" value="pilha"/> pilha</label> 
+   		</p>
+   		<p>Idiomas:<br />
+   		   <select name="idiomas" multiple="multiple" size="3">
+   		   	 <option value="portugues">Português</option>
+   		   	 <option value="ingles">Inglês</option>
+   		   	 <option value="espanhol">Espanhol</option>
+   		   	 <option value="alemao">Alemão</option>
+   		   </select>
+   		</p>   
+   		<p>
+   		   <input type="submit" value="cadastra" /> 
+   		   <input type="reset" value="limpa" />
+   		</p>  
+   </form>
+</body>
+</html>
